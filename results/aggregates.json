@@ -1,0 +1,1204 @@
+{
+ "db_obs_by_type": {
+  "bugfix": 10130,
+  "change": 5778,
+  "decision": 3702,
+  "discovery": 48213,
+  "feature": 13032,
+  "refactor": 456,
+  "security_alert": 465,
+  "security_note": 283
+ },
+ "db_obs_range": [
+  "2026-04-12T19:34:08.553Z",
+  "2026-11-07T09:19:37.424Z"
+ ],
+ "db_observations": 82059,
+ "db_sessions": 11616,
+ "db_sessions_by_platform": {
+  "claude": 10779,
+  "codex": 837
+ },
+ "db_user_prompts": 18588,
+ "feedback_chars_total": 310194,
+ "feedback_date_range": [
+  "2026-04-12",
+  "2026-11-07"
+ ],
+ "feedback_date_source": {
+  "body": 16,
+  "filename": 133,
+  "mtime": 4
+ },
+ "feedback_files": 153,
+ "handcheck": {
+  "labels": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0
+  ],
+  "n": 30,
+  "positives": 1,
+  "precision": 0.03333333333333333,
+  "share": 0.03333333333333333,
+  "true_positive": 1,
+  "wilson95": [
+   0.005908437994857381,
+   0.16670751396958874
+  ]
+ },
+ "handcheck_lenient": {
+  "labels": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   1,
+   0
+  ],
+  "n": 30,
+  "positives": 4,
+  "share": 0.13333333333333333,
+  "wilson95": [
+   0.05309569424218104,
+   0.2968168394441695
+  ]
+ },
+ "handcheck_n": 30,
+ "handcheck_pool": 33,
+ "handcheck_v2": {
+  "distinct_prompts_among_positives": 1,
+  "labels": [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "n": 8,
+  "positives": 2,
+  "share": 0.25,
+  "wilson95": [
+   0.07147768885802765,
+   0.5907301208974108
+  ]
+ },
+ "handcheck_v2_n": 8,
+ "handcheck_v2_pool": 8,
+ "memory_files_by_prefix": {
+  "feedback": 153,
+  "other": 4,
+  "project": 177,
+  "reference": 46,
+  "security": 2,
+  "user": 2
+ },
+ "memory_files_total": 384,
+ "memory_index_chars": 15781,
+ "memory_index_lines": 119,
+ "obs_weekly": {
+  "2026-04-06": 9,
+  "2026-04-13": 0,
+  "2026-04-20": 2357,
+  "2026-04-27": 2054,
+  "2026-05-04": 1428,
+  "2026-05-11": 1847,
+  "2026-05-18": 1820,
+  "2026-05-25": 2326,
+  "2026-06-01": 1606,
+  "2026-06-08": 3335,
+  "2026-06-15": 4139,
+  "2026-06-22": 1610,
+  "2026-06-29": 3946,
+  "2026-07-06": 3388,
+  "2026-07-13": 1349,
+  "2026-07-20": 3715,
+  "2026-07-27": 2162,
+  "2026-08-03": 1525,
+  "2026-08-10": 4206,
+  "2026-08-17": 1917,
+  "2026-08-24": 1277,
+  "2026-08-31": 3577,
+  "2026-09-07": 2520,
+  "2026-09-14": 3323,
+  "2026-09-21": 5269,
+  "2026-09-28": 3327,
+  "2026-10-05": 4374,
+  "2026-10-12": 4083,
+  "2026-10-19": 2941,
+  "2026-10-26": 1811,
+  "2026-11-02": 4818
+ },
+ "obs_weekly_range_excl_partial_ends": [
+  0,
+  5269
+ ],
+ "obs_weekly_zero_interior_weeks": 1,
+ "prompts_human": 6170,
+ "prompts_human_correction_marked": 390,
+ "prompts_human_scope": 2993,
+ "prompts_human_scope_correction_marked": 148,
+ "prompts_human_strict": 5730,
+ "prompts_median_len_human": 66.0,
+ "prompts_total": 18588,
+ "prompts_v2_pool": 4672,
+ "prompts_v2_pool_scope": 2271,
+ "prompts_v2_pool_scope_marked": 110,
+ "provenance": {
+  "analyze_py_sha256": "f1ee61f61fccca98b030a510a3e8e6e2b90912ef4aec53366b72698f8ef8d8bb",
+  "db_sha256": "74e6df4a59346d319899bb4f0be8fbbe0382ee09bb4e27ee1707a2f68aad3459",
+  "label_files_sha256": {
+   "handcheck": "1d10fe8d016d5b3ae4e1016cbe1f7c92aa847c1161d64ce3a63614bbc8917a99",
+   "handcheck_lenient": "f2294b5d2bb1da22e70240b6cca35b9ee697638eee9fe8a86e49babf630d810e",
+   "handcheck_v2": "df970782afed63be095dedd0ee3aceba36ced1bca7c52f2ff02eeb9b0edcc04a",
+   "taxonomy_check": "13d5bcdce9f525740cf22b54fe55fbae5e19a63b71ea554e1bc1fc96a43412f0"
+  },
+  "matplotlib": "3.10.8",
+  "memdir_sha256": "f2dd7ed4de3ef19b9b79c9850b15d79676ccd7e376232466955c2a98e8d2fe30",
+  "numpy": "2.4.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.11.4",
+  "scipy": "1.17.1",
+  "seed": 20261107,
+  "user_aliases_given": true
+ },
+ "rq1_categories": {
+  "domain_task_knowledge": 18,
+  "resource_infra": 10,
+  "safety_outbound_gating": 12,
+  "tool_environment_facts": 27,
+  "user_preference_style": 6,
+  "verification_honesty": 44,
+  "workflow_delegation": 36
+ },
+ "rq1_categories_by_month": {
+  "domain_task_knowledge": {
+   "2026-05": 3,
+   "2026-06": 1,
+   "2026-07": 3,
+   "2026-09": 6,
+   "2026-10": 5
+  },
+  "other": {},
+  "resource_infra": {
+   "2026-04": 1,
+   "2026-09": 5,
+   "2026-10": 2,
+   "2026-11": 2
+  },
+  "safety_outbound_gating": {
+   "2026-04": 1,
+   "2026-06": 3,
+   "2026-07": 1,
+   "2026-09": 4,
+   "2026-10": 2,
+   "2026-11": 1
+  },
+  "tool_environment_facts": {
+   "2026-06": 2,
+   "2026-08": 1,
+   "2026-09": 15,
+   "2026-10": 9
+  },
+  "user_preference_style": {
+   "2026-05": 1,
+   "2026-06": 1,
+   "2026-09": 2,
+   "2026-10": 1,
+   "2026-11": 1
+  },
+  "verification_honesty": {
+   "2026-04": 1,
+   "2026-06": 2,
+   "2026-07": 2,
+   "2026-08": 10,
+   "2026-09": 25,
+   "2026-10": 3,
+   "2026-11": 1
+  },
+  "workflow_delegation": {
+   "2026-04": 3,
+   "2026-05": 2,
+   "2026-06": 1,
+   "2026-07": 4,
+   "2026-08": 1,
+   "2026-09": 14,
+   "2026-10": 10,
+   "2026-11": 1
+  }
+ },
+ "rq1_max_week": [
+  "2026-09-21",
+  25
+ ],
+ "rq1_mean_new_per_week": 4.935483870967742,
+ "rq1_monthly_new": {
+  "2026-04": 6,
+  "2026-05": 6,
+  "2026-06": 10,
+  "2026-07": 10,
+  "2026-08": 12,
+  "2026-09": 71,
+  "2026-10": 32,
+  "2026-11": 6
+ },
+ "rq1_user_mention_proxy": 80,
+ "rq1_user_mention_proxy_by_category": {
+  "domain_task_knowledge": {
+   "n": 18,
+   "ua": 15
+  },
+  "other": {
+   "n": 0,
+   "ua": 0
+  },
+  "resource_infra": {
+   "n": 10,
+   "ua": 4
+  },
+  "safety_outbound_gating": {
+   "n": 12,
+   "ua": 6
+  },
+  "tool_environment_facts": {
+   "n": 27,
+   "ua": 14
+  },
+  "user_preference_style": {
+   "n": 6,
+   "ua": 5
+  },
+  "verification_honesty": {
+   "n": 44,
+   "ua": 8
+  },
+  "workflow_delegation": {
+   "n": 36,
+   "ua": 28
+  }
+ },
+ "rq1_weekly_new": {
+  "2026-04-06": 1,
+  "2026-04-13": 2,
+  "2026-04-20": 3,
+  "2026-05-04": 1,
+  "2026-05-11": 2,
+  "2026-05-18": 2,
+  "2026-05-25": 1,
+  "2026-06-01": 7,
+  "2026-06-08": 1,
+  "2026-06-15": 1,
+  "2026-06-29": 4,
+  "2026-07-06": 4,
+  "2026-07-13": 2,
+  "2026-07-20": 1,
+  "2026-08-10": 4,
+  "2026-08-17": 4,
+  "2026-08-24": 3,
+  "2026-08-31": 13,
+  "2026-09-07": 6,
+  "2026-09-14": 19,
+  "2026-09-21": 25,
+  "2026-09-28": 13,
+  "2026-10-05": 13,
+  "2026-10-12": 7,
+  "2026-10-19": 8,
+  "2026-11-02": 6
+ },
+ "rq1_weeks_span": 31,
+ "rq1_weeks_with_new": 26,
+ "rq2_dated_annotated_with_len_ge3": 7,
+ "rq2_overlap_dated_and_prompt": 1,
+ "rq2a_by_category": {
+  "domain_task_knowledge": {
+   "dated": 1,
+   "n": 18
+  },
+  "resource_infra": {
+   "dated": 1,
+   "n": 10
+  },
+  "safety_outbound_gating": {
+   "dated": 0,
+   "n": 12
+  },
+  "tool_environment_facts": {
+   "dated": 3,
+   "n": 27
+  },
+  "user_preference_style": {
+   "dated": 0,
+   "n": 6
+  },
+  "verification_honesty": {
+   "dated": 0,
+   "n": 44
+  },
+  "workflow_delegation": {
+   "dated": 2,
+   "n": 36
+  }
+ },
+ "rq2a_dated_recurrence": 7,
+ "rq2a_dated_user_mention_proxy": 5,
+ "rq2a_days_to_first_dated": {
+  "max": 9,
+  "median": 4.0,
+  "min": 1,
+  "n": 7
+ },
+ "rq2a_files_with_ge2_dated_recurrences": 4,
+ "rq2a_gaps_days": [
+  1,
+  1,
+  3,
+  4,
+  4,
+  9,
+  9
+ ],
+ "rq2a_loose_keyword_only_or_strict": 52,
+ "rq2a_max_span_days": 53,
+ "rq2a_strict_keyword": 21,
+ "rq2a_wilson95": {
+  "any_keyword": [
+   0.26955735281367826,
+   0.41802553335937787
+  ],
+  "dated": [
+   0.02233593056990046,
+   0.09141960367611589
+  ],
+  "strict_keyword": [
+   0.09155625124127832,
+   0.200723348048706
+  ]
+ },
+ "rq2b_all_memories_with_match": 135,
+ "rq2b_by_category": {
+  "domain_task_knowledge": {
+   "eligible": 18,
+   "matched": 5
+  },
+  "resource_infra": {
+   "eligible": 10,
+   "matched": 0
+  },
+  "safety_outbound_gating": {
+   "eligible": 12,
+   "matched": 1
+  },
+  "tool_environment_facts": {
+   "eligible": 27,
+   "matched": 7
+  },
+  "user_preference_style": {
+   "eligible": 6,
+   "matched": 2
+  },
+  "verification_honesty": {
+   "eligible": 44,
+   "matched": 8
+  },
+  "workflow_delegation": {
+   "eligible": 35,
+   "matched": 10
+  }
+ },
+ "rq2b_cumulative_incidence": {
+  "14": {
+   "eligible": 146,
+   "hit": 6,
+   "share": 0.0410958904109589
+  },
+  "30": {
+   "eligible": 127,
+   "hit": 8,
+   "share": 0.06299212598425197
+  },
+  "60": {
+   "eligible": 57,
+   "hit": 7,
+   "share": 0.12280701754385964
+  },
+  "7": {
+   "eligible": 146,
+   "hit": 6,
+   "share": 0.0410958904109589
+  }
+ },
+ "rq2b_days_to_first_match": {
+  "median": 41.0,
+  "n": 33,
+  "q25": 22.0,
+  "q75": 54.0
+ },
+ "rq2b_df_threshold_prompts": 123.4,
+ "rq2b_eligible_memories": 152,
+ "rq2b_first_gaps_days": [
+  1,
+  1,
+  1,
+  2,
+  4,
+  7,
+  18,
+  20,
+  22,
+  29,
+  29,
+  31,
+  34,
+  35,
+  39,
+  40,
+  41,
+  42,
+  42,
+  47,
+  47,
+  47,
+  48,
+  48,
+  54,
+  56,
+  66,
+  71,
+  79,
+  83,
+  85,
+  122,
+  151
+ ],
+ "rq2b_median_keywords_per_memory": 12.0,
+ "rq2b_memories_with_ge3_keywords": 152,
+ "rq2b_placebo_30d": {
+  "both": 1,
+  "eligible": 120,
+  "mcnemar_exact_p": 1.0,
+  "post_hit": 7,
+  "post_only": 6,
+  "pre_hit": 6,
+  "pre_only": 5
+ },
+ "rq2b_placebo_30d_k3": {
+  "eligible": 120,
+  "post_hit": 1,
+  "pre_hit": 2
+ },
+ "rq2b_scope_k3_memories_with_match": 6,
+ "rq2b_scope_matched_prompts": 20,
+ "rq2b_scope_memories_with_match": 33,
+ "rq2b_scope_share_raw": 0.21710526315789475,
+ "rq2b_v1_judged_earliest_match_pairs_scaled": {
+  "high": 0.036193078690765976,
+  "low": 0.0012827529857256158,
+  "note": "raw share x precision of judged earliest-match pairs; recall unknown; not a validated recurrence rate",
+  "point": 0.007236842105263158
+ },
+ "rq2b_v2_first_gaps_days": [
+  1,
+  1,
+  2,
+  29,
+  35,
+  42,
+  44,
+  58
+ ],
+ "rq2b_v2_judged_earliest_match_pairs_scaled": {
+  "high": 0.03109105899460057,
+  "low": 0.003761983624106718,
+  "note": "raw share x precision of judged earliest-match pairs; recall unknown; not a validated recurrence rate",
+  "point": 0.013157894736842105
+ },
+ "rq2b_v2_memories_with_match": 8,
+ "rq2b_v2_placebo_30d": {
+  "eligible": 120,
+  "post_hit": 3,
+  "pre_hit": 1
+ },
+ "rq2b_v2_share_raw": 0.05263157894736842,
+ "rq3_all_min30": {
+  "mean_rate": 0.058941920329057415,
+  "median_len_vs_week_index": {
+   "spearman_p": 0.05994886720412039,
+   "spearman_rho": 0.34742936894138277
+  },
+  "min_prompts_per_week": 30,
+  "prompts_in_used_weeks": 6167,
+  "rate_vs_median_len": {
+   "spearman_p": 0.002289013256193523,
+   "spearman_rho": 0.5355592952951251
+  },
+  "vs_cum_memories": {
+   "autocorr_pairs": 29,
+   "pearson_p": 0.00094708862341064,
+   "pearson_r": 0.5724723002506898,
+   "resid_autocorr_adjacent_calendar_weeks": 0.3333401752320544,
+   "slope": 0.0003709259846899006,
+   "slope_se": 0.00010039853968498206,
+   "spearman_p": 0.14957630850411557,
+   "spearman_rho": 0.26965047209772525
+  },
+  "vs_week_index": {
+   "autocorr_pairs": 29,
+   "pearson_p": 0.039347807698545165,
+   "pearson_r": 0.37816857874958637,
+   "resid_autocorr_adjacent_calendar_weeks": 0.4475065734025608,
+   "slope": 0.0013032270781045533,
+   "slope_se": 0.0006028970261511096,
+   "spearman_p": 0.1488601345725248,
+   "spearman_rho": 0.2701079113387872
+  },
+  "weekly": {
+   "2026-04-13": [
+    367,
+    15
+   ],
+   "2026-04-20": [
+    333,
+    25
+   ],
+   "2026-04-27": [
+    185,
+    15
+   ],
+   "2026-05-04": [
+    163,
+    11
+   ],
+   "2026-05-11": [
+    291,
+    12
+   ],
+   "2026-05-18": [
+    209,
+    7
+   ],
+   "2026-05-25": [
+    211,
+    4
+   ],
+   "2026-06-01": [
+    98,
+    8
+   ],
+   "2026-06-08": [
+    230,
+    8
+   ],
+   "2026-06-15": [
+    279,
+    15
+   ],
+   "2026-06-22": [
+    138,
+    3
+   ],
+   "2026-06-29": [
+    365,
+    18
+   ],
+   "2026-07-06": [
+    275,
+    13
+   ],
+   "2026-07-13": [
+    127,
+    7
+   ],
+   "2026-07-20": [
+    247,
+    16
+   ],
+   "2026-07-27": [
+    150,
+    8
+   ],
+   "2026-08-03": [
+    47,
+    3
+   ],
+   "2026-08-10": [
+    176,
+    9
+   ],
+   "2026-08-17": [
+    137,
+    7
+   ],
+   "2026-08-24": [
+    45,
+    4
+   ],
+   "2026-08-31": [
+    100,
+    2
+   ],
+   "2026-09-07": [
+    49,
+    2
+   ],
+   "2026-09-14": [
+    66,
+    2
+   ],
+   "2026-09-21": [
+    150,
+    3
+   ],
+   "2026-09-28": [
+    218,
+    14
+   ],
+   "2026-10-05": [
+    247,
+    15
+   ],
+   "2026-10-12": [
+    289,
+    24
+   ],
+   "2026-10-19": [
+    324,
+    33
+   ],
+   "2026-10-26": [
+    275,
+    42
+   ],
+   "2026-11-02": [
+    376,
+    45
+   ]
+  },
+  "weeks_used": 30
+ },
+ "rq3_all_strictfilter_min30": {
+  "mean_rate": 0.05332725309471673,
+  "median_len_vs_week_index": {
+   "spearman_p": 0.004000392760916435,
+   "spearman_rho": 0.5098520973569551
+  },
+  "min_prompts_per_week": 30,
+  "prompts_in_used_weeks": 5729,
+  "rate_vs_median_len": {
+   "spearman_p": 0.00403775333218674,
+   "spearman_rho": 0.5094068116824076
+  },
+  "vs_cum_memories": {
+   "autocorr_pairs": 29,
+   "pearson_p": 0.00027176234114147774,
+   "pearson_r": 0.618224615793966,
+   "resid_autocorr_adjacent_calendar_weeks": 0.22548796766379425,
+   "slope": 0.00040876859968557973,
+   "slope_se": 9.821449350360146e-05,
+   "spearman_p": 0.05528270446488865,
+   "spearman_rho": 0.35355682559076196
+  },
+  "vs_week_index": {
+   "autocorr_pairs": 29,
+   "pearson_p": 0.01883679963438556,
+   "pearson_r": 0.4262470336957639,
+   "resid_autocorr_adjacent_calendar_weeks": 0.38961375845067425,
+   "slope": 0.0014989753002737664,
+   "slope_se": 0.0006011930347868403,
+   "spearman_p": 0.05532175018430924,
+   "spearman_rho": 0.35350389321468295
+  },
+  "weekly": {
+   "2026-04-13": [
+    335,
+    10
+   ],
+   "2026-04-20": [
+    289,
+    23
+   ],
+   "2026-04-27": [
+    161,
+    7
+   ],
+   "2026-05-04": [
+    146,
+    8
+   ],
+   "2026-05-11": [
+    256,
+    9
+   ],
+   "2026-05-18": [
+    200,
+    7
+   ],
+   "2026-05-25": [
+    194,
+    4
+   ],
+   "2026-06-01": [
+    85,
+    7
+   ],
+   "2026-06-08": [
+    220,
+    6
+   ],
+   "2026-06-15": [
+    267,
+    13
+   ],
+   "2026-06-22": [
+    123,
+    1
+   ],
+   "2026-06-29": [
+    303,
+    14
+   ],
+   "2026-07-06": [
+    257,
+    8
+   ],
+   "2026-07-13": [
+    124,
+    7
+   ],
+   "2026-07-20": [
+    239,
+    16
+   ],
+   "2026-07-27": [
+    141,
+    8
+   ],
+   "2026-08-03": [
+    39,
+    3
+   ],
+   "2026-08-10": [
+    165,
+    6
+   ],
+   "2026-08-17": [
+    134,
+    7
+   ],
+   "2026-08-24": [
+    43,
+    2
+   ],
+   "2026-08-31": [
+    95,
+    2
+   ],
+   "2026-09-07": [
+    43,
+    1
+   ],
+   "2026-09-14": [
+    64,
+    2
+   ],
+   "2026-09-21": [
+    143,
+    3
+   ],
+   "2026-09-28": [
+    216,
+    14
+   ],
+   "2026-10-05": [
+    247,
+    15
+   ],
+   "2026-10-12": [
+    274,
+    24
+   ],
+   "2026-10-19": [
+    308,
+    29
+   ],
+   "2026-10-26": [
+    268,
+    41
+   ],
+   "2026-11-02": [
+    350,
+    38
+   ]
+  },
+  "weeks_used": 30
+ },
+ "rq3_scope_min15": {
+  "mean_rate": 0.04792528467222754,
+  "median_len_vs_week_index": {
+   "spearman_p": 0.9250895488264236,
+   "spearman_rho": 0.020761248211222143
+  },
+  "min_prompts_per_week": 15,
+  "prompts_in_used_weeks": 2939,
+  "rate_vs_median_len": {
+   "spearman_p": 0.00854751211165452,
+   "spearman_rho": 0.53486646884273
+  },
+  "vs_cum_memories": {
+   "autocorr_pairs": 18,
+   "pearson_p": 0.34492278680024924,
+   "pearson_r": 0.20631368986846998,
+   "resid_autocorr_adjacent_calendar_weeks": 0.22808484832696058,
+   "slope": 0.00013002499182170258,
+   "slope_se": 0.00013456859384564725,
+   "spearman_p": 0.6195883650757802,
+   "spearman_rho": -0.10929772502472798
+  },
+  "vs_week_index": {
+   "autocorr_pairs": 18,
+   "pearson_p": 0.9985800283813419,
+   "pearson_r": -0.0003930052856734935,
+   "resid_autocorr_adjacent_calendar_weeks": 0.14016778536449453,
+   "slope": -1.2433728366404293e-06,
+   "slope_se": 0.0006903881095895425,
+   "spearman_p": 0.6341702443799817,
+   "spearman_rho": -0.10479487192331177
+  },
+  "weekly": {
+   "2026-04-13": [
+    270,
+    10
+   ],
+   "2026-04-20": [
+    169,
+    14
+   ],
+   "2026-04-27": [
+    82,
+    6
+   ],
+   "2026-05-04": [
+    59,
+    4
+   ],
+   "2026-05-11": [
+    183,
+    8
+   ],
+   "2026-05-18": [
+    189,
+    7
+   ],
+   "2026-05-25": [
+    177,
+    4
+   ],
+   "2026-06-01": [
+    95,
+    8
+   ],
+   "2026-06-08": [
+    213,
+    8
+   ],
+   "2026-06-15": [
+    217,
+    14
+   ],
+   "2026-06-22": [
+    135,
+    3
+   ],
+   "2026-06-29": [
+    307,
+    16
+   ],
+   "2026-07-06": [
+    165,
+    6
+   ],
+   "2026-07-13": [
+    40,
+    0
+   ],
+   "2026-08-10": [
+    87,
+    7
+   ],
+   "2026-08-31": [
+    86,
+    2
+   ],
+   "2026-09-07": [
+    23,
+    0
+   ],
+   "2026-09-14": [
+    62,
+    2
+   ],
+   "2026-09-21": [
+    74,
+    1
+   ],
+   "2026-09-28": [
+    36,
+    2
+   ],
+   "2026-10-12": [
+    23,
+    1
+   ],
+   "2026-10-19": [
+    89,
+    7
+   ],
+   "2026-11-02": [
+    158,
+    18
+   ]
+  },
+  "weeks_used": 23
+ },
+ "rq3_scope_min30": {
+  "mean_rate": 0.050419204123412775,
+  "median_len_vs_week_index": {
+   "spearman_p": 0.7711624988673799,
+   "spearman_rho": -0.06753246753246753
+  },
+  "min_prompts_per_week": 30,
+  "prompts_in_used_weeks": 2893,
+  "rate_vs_median_len": {
+   "spearman_p": 0.009353469458210958,
+   "spearman_rho": 0.5527769047631236
+  },
+  "vs_cum_memories": {
+   "autocorr_pairs": 15,
+   "pearson_p": 0.19323360589150806,
+   "pearson_r": 0.29562317282698264,
+   "resid_autocorr_adjacent_calendar_weeks": 0.1729157457296944,
+   "slope": 0.0001921011256803323,
+   "slope_se": 0.00014241525732872076,
+   "spearman_p": 0.7010933912239777,
+   "spearman_rho": -0.08904777850825565
+  },
+  "vs_week_index": {
+   "autocorr_pairs": 15,
+   "pearson_p": 0.6814373070223374,
+   "pearson_r": 0.09520474200913162,
+   "resid_autocorr_adjacent_calendar_weeks": 0.08463172112219117,
+   "slope": 0.0003019024432521872,
+   "slope_se": 0.0007241925660639075,
+   "spearman_p": 0.718015001495041,
+   "spearman_rho": -0.08379344384775904
+  },
+  "weekly": {
+   "2026-04-13": [
+    270,
+    10
+   ],
+   "2026-04-20": [
+    169,
+    14
+   ],
+   "2026-04-27": [
+    82,
+    6
+   ],
+   "2026-05-04": [
+    59,
+    4
+   ],
+   "2026-05-11": [
+    183,
+    8
+   ],
+   "2026-05-18": [
+    189,
+    7
+   ],
+   "2026-05-25": [
+    177,
+    4
+   ],
+   "2026-06-01": [
+    95,
+    8
+   ],
+   "2026-06-08": [
+    213,
+    8
+   ],
+   "2026-06-15": [
+    217,
+    14
+   ],
+   "2026-06-22": [
+    135,
+    3
+   ],
+   "2026-06-29": [
+    307,
+    16
+   ],
+   "2026-07-06": [
+    165,
+    6
+   ],
+   "2026-07-13": [
+    40,
+    0
+   ],
+   "2026-08-10": [
+    87,
+    7
+   ],
+   "2026-08-31": [
+    86,
+    2
+   ],
+   "2026-09-14": [
+    62,
+    2
+   ],
+   "2026-09-21": [
+    74,
+    1
+   ],
+   "2026-09-28": [
+    36,
+    2
+   ],
+   "2026-10-19": [
+    89,
+    7
+   ],
+   "2026-11-02": [
+    158,
+    18
+   ]
+  },
+  "weeks_used": 21
+ },
+ "rq4": {
+  "all_feedback_tokens_proxy_chars_div4": 77548.5,
+  "discovery_tokens_field_sum_over_rows": 1250282122,
+  "discovery_tokens_sum_over_distinct_session_prompt_value_groups": 515603215,
+  "file_context_injections_rows": 39,
+  "groups": 59571,
+  "groups_with_repeated_value_rows": 10667,
+  "index_share_of_feedback_corpus_chars": 0.05087461395126921,
+  "index_tokens_proxy_chars_div4": 3945.25,
+  "median_discovery_tokens": 3813.0,
+  "obs_with_discovery_tokens": 82053,
+  "obs_with_relevance_count_positive": 0,
+  "observations": 82059,
+  "relevance_count_sum": 0,
+  "reread_tokens_measurable": false,
+  "stored_chars_sum": 141520024,
+  "stored_tokens_proxy_chars_div4": 35380006.0
+ },
+ "sample_fingerprints": {
+  "taxonomy": "376e111d5c7e3bec",
+  "v1": "a604dae717f6f550",
+  "v2": "3e4bfcdebae10b8d"
+ },
+ "study_window_utc": [
+  "2026-04-12",
+  "2026-11-07"
+ ],
+ "taxonomy_check": {
+  "labels": [
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0
+  ],
+  "n": 30,
+  "positives": 22,
+  "share": 0.7333333333333333,
+  "wilson95": [
+   0.5555169795568831,
+   0.8581750444608938
+  ]
+ }
+}
